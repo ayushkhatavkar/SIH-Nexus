@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXUS — Criminal Network Analysis & Investigation System</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand">
+      <div class="brand-badge">LAW ENFORCEMENT INTELLIGENCE</div>
+      <h1>NEXUS</h1>
+      <div class="sub">CRIMINAL NETWORK ANALYSIS</div>
+    </div>
+    <div class="synthetic-badge">CONFIDENTIAL — SYNTHETIC DEMO DATA</div>
+    <nav class="nav" id="nav">
+      <button data-v="home" class="on"><span class="ico">⌂</span>Home / Search</button>
+      <button data-v="investigate"><span class="ico">◈</span>Case Investigation</button>
+      <button data-v="person" id="navPersonBtn" style="display:none"><span class="ico">👤</span>Person Dossier</button>
+      <button data-v="phone" id="navPhoneBtn" style="display:none"><span class="ico">📞</span>Phone Dossier</button>
+      <button data-v="vehicle" id="navVehicleBtn" style="display:none"><span class="ico">🚗</span>Vehicle Dossier</button>
+      <button data-v="account" id="navAccountBtn" style="display:none"><span class="ico">🏦</span>Account Dossier</button>
+      <button data-v="cases"><span class="ico">▤</span>All Cases</button>
+      <button data-v="pathfinder"><span class="ico">🧭</span>Path Finder</button>
+      <button data-v="compare"><span class="ico">⇄</span>Compare Cases</button>
+      <button data-v="timeline"><span class="ico">⏱</span>Case Timeline</button>
+      <button data-v="upload"><span class="ico">⇪</span>Add Data</button>
+      <button data-v="alerts"><span class="ico">⚑</span>Alerts<span class="badge" id="alertBadge">0</span></button>
+      <button data-v="dataquality"><span class="ico">🛡</span>Data Quality</button>
+      <button data-v="datasources"><span class="ico">🗄</span>Data Sources</button>
+      <button data-v="advanced"><span class="ico">⬡</span>Advanced Analytics</button>
+    </nav>
+    <div class="sidefoot">
+      <b>NEXUS System 2.0</b><br>
+      Investigator Decision Support<br>
+      <span class="dim">Synthetic dataset · No real identities</span>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <!-- ============ HOME ============ -->
+    <section class="view on" id="v-home">
+      <div class="hero-search">
+        <div class="hero-tagline">CRIMINAL NETWORK ANALYSIS & INVESTIGATION</div>
+        <h1>Cross-Case Intelligence Platform</h1>
+        <div class="tag">Surface hidden connections, cross-case bridges, and actionable investigative leads across multiple data sources.</div>
+        
+        <div class="modes">
+          <button class="mode-btn on" data-mode="all">All Entities</button>
+          <button class="mode-btn" data-mode="case">Case / FIR</button>
+          <button class="mode-btn" data-mode="person">Person</button>
+          <button class="mode-btn" data-mode="phone">Phone Number</button>
+          <button class="mode-btn" data-mode="vehicle">Vehicle</button>
+          <button class="mode-btn" data-mode="account">Bank Account</button>
+        </div>
+        
+        <div class="searchbox mt16">
+          <input id="homeSearch" type="text" placeholder="Search by Case ID, Person Name/ID, Phone, Vehicle, or Account..." autocomplete="off">
+          <button class="btn" id="btnHomeSearch">Investigate</button>
+        </div>
+        
+        <div id="homeErr"></div>
+        <div id="searchSuggestions" class="search-suggestions" style="display:none"></div>
+        <div id="homeMultiMatch" class="multi-match-container" style="display:none"></div>
+      </div>
+
+      <div class="home-stats-banner grid g4">
+        <div class="card stat-card">
+          <div class="n" id="statCasesCount">25</div>
+          <div class="l">Registered Cases</div>
+        </div>
+        <div class="card stat-card">
+          <div class="n" id="statPersonsCount">80</div>
+          <div class="l">Persons Tracked</div>
+        </div>
+        <div class="card stat-card">
+          <div class="n" id="statGraphNodes">334</div>
+          <div class="l">Network Entities</div>
+        </div>
+        <div class="card stat-card">
+          <div class="n" id="statGraphEdges">1,077</div>
+          <div class="l">Evidentiary Links</div>
+        </div>
+      </div>
+
+      <div class="recent-cases card mt24">
+        <div class="section-head">
+          <h3>Featured Investigation Cases</h3>
+          <span class="dim">Click any case to open its full investigative intelligence dashboard</span>
+        </div>
+        <div id="recentCases" class="recent-cases-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ INVESTIGATE ============ -->
+    <section class="view wide" id="v-investigate">
+      <div id="investContent">
+        <div class="side-panel">
+          <div class="empty">Select a case from Home or All Cases to launch an investigation.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PERSON INVESTIGATION ============ -->
+    <section class="view wide" id="v-person">
+      <div id="personContent">
+        <div class="side-panel">
+          <div class="empty">Search a person from Home or click a person node to view their full intelligence dossier.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PHONE INVESTIGATION ============ -->
+    <section class="view wide" id="v-phone">
+      <div id="phoneContent">
+        <div class="side-panel">
+          <div class="empty">Search a phone number from Home or click a phone node to view call connections and history.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VEHICLE INVESTIGATION ============ -->
+    <section class="view wide" id="v-vehicle">
+      <div id="vehicleContent">
+        <div class="side-panel">
+          <div class="empty">Search a vehicle registration or click a vehicle node to view linked owner and cases.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACCOUNT INVESTIGATION ============ -->
+    <section class="view wide" id="v-account">
+      <div id="accountContent">
+        <div class="side-panel">
+          <div class="empty">Search an account number or click an account node to view transaction history and owner.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ALL CASES ============ -->
+    <section class="view" id="v-cases">
+      <div class="cases-header">
+        <div>
+          <h2>Case Registry</h2>
+          <div class="lede">All registered FIRs across Maharashtra jurisdiction stations. Click any row to investigate.</div>
+        </div>
+        <div class="cases-search-box">
+          <input type="text" id="caseFilterInput" placeholder="Filter by FIR ID, District, Station...">
+        </div>
+      </div>
+      <div class="card">
+        <table id="casesTbl"></table>
+      </div>
+    </section>
+
+    <!-- ============ PATH FINDER ============ -->
+    <section class="view" id="v-pathfinder">
+      <h2>Shortest Network Path Finder</h2>
+      <div class="lede">Discover how any two entities in the criminal network connect across multiple hops with verified evidentiary records.</div>
+      
+      <div class="card mb14">
+        <div class="path-controls">
+          <div class="path-input-group">
+            <label>Origin Entity (Person, Phone, Case, Vehicle, Account)</label>
+            <input type="text" id="pathFromInput" placeholder="e.g. Ashok Sheikh, P052, 9841506919, or FIR-0170-2026">
+          </div>
+          <div class="path-arrow">➔</div>
+          <div class="path-input-group">
+            <label>Destination Entity (Person, Phone, Case, Vehicle, Account)</label>
+            <input type="text" id="pathToInput" placeholder="e.g. Mahesh Momin, P001, V001, or FIR-0117-2026">
+          </div>
+          <button class="btn" id="btnFindPath">Trace Network Path</button>
+        </div>
+        <div class="quick-paths mt12">
+          <span class="dim" style="font-size:11px;margin-right:8px">Quick verification benchmarks:</span>
+          <button class="pill ghost small" onclick="setPathInputs('P052', 'FIR-0170-2026')">P052 ➔ FIR-0170</button>
+          <button class="pill ghost small" onclick="setPathInputs('P052', 'P001')">P052 ➔ P001</button>
+          <button class="pill ghost small" onclick="setPathInputs('9841506919', 'FIR-0139-2026')">9841506919 ➔ FIR-0139</button>
+          <button class="pill ghost small" onclick="setPathInputs('Ashok Sheikh', 'Mahesh Momin')">Ashok ➔ Mahesh</button>
+        </div>
+      </div>
+
+      <div id="pathResult"></div>
+    </section>
+
+    <!-- ============ COMPARE CASES ============ -->
+    <section class="view" id="v-compare">
+      <h2>Cross-Case Comparison Matrix</h2>
+      <div class="lede">Select two cases to compare shared entities, common contacts, overlapping vehicles, and financial links.</div>
+      
+      <div class="card mb14">
+        <div class="compare-controls">
+          <div class="cmp-select-group">
+            <label>Primary Case (Case 1)</label>
+            <select id="cmpCase1"></select>
+          </div>
+          <div class="cmp-vs">VS</div>
+          <div class="cmp-select-group">
+            <label>Comparison Case (Case 2)</label>
+            <select id="cmpCase2"></select>
+          </div>
+          <button class="btn" id="btnRunCompare">Compare Cases</button>
+        </div>
+      </div>
+
+      <div id="compareResult"></div>
+    </section>
+
+    <!-- ============ TIMELINE ============ -->
+    <section class="view" id="v-timeline">
+      <div class="timeline-header">
+        <div>
+          <h2>Chronological Case Timeline</h2>
+          <div class="lede">Chronological sequence of verified evidence records: FIR registration, phone calls, financial transfers, and sightings.</div>
+        </div>
+        <div class="timeline-picker">
+          <label class="dim" style="font-size:12px;margin-right:8px">Select Case:</label>
+          <select id="timelineCaseSelect"></select>
+          <button class="btn small" id="btnRefreshTimeline">View Timeline</button>
+        </div>
+      </div>
+
+      <div class="timeline-filters mb14">
+        <button class="filter-pill on" data-cat="ALL">All Events</button>
+        <button class="filter-pill" data-cat="CALL">Phone Calls</button>
+        <button class="filter-pill" data-cat="FINANCIAL">Bank Transfers</button>
+        <button class="filter-pill" data-cat="FIR">FIR Registrations</button>
+        <button class="filter-pill" data-cat="SOCIAL">Social Links</button>
+      </div>
+
+      <div class="card">
+        <div id="timelineEvents" class="timeline-feed"></div>
+      </div>
+    </section>
+
+    <!-- ============ UPLOAD ============ -->
+    <section class="view" id="v-upload">
+      <h2>Add Case Data (Ingestion)</h2>
+      <div class="lede">Upload FIR documents, CDR records, Bank transactions, Telecom subscribers, Social connections, or Vehicle logs. Files are validated, normalized, and integrated into the knowledge graph immediately.</div>
+      
+      <div class="card">
+        <div class="upload-form">
+          <div>
+            <label>Case ID Reference (Optional for FIR files with explicit ID)</label>
+            <input type="text" id="upCaseId" placeholder="e.g. 0170/2026 or FIR-0170-2026">
+          </div>
+          <div>
+            <label>Data Category</label>
+            <select id="upDoctype">
+              <option value="FIR">FIR Record (.txt key-value or .csv)</option>
+              <option value="CDR">CDR - Call Detail Records (.csv)</option>
+              <option value="BANK">Bank Transactions (.csv)</option>
+              <option value="TELECOM">Telecom Subscribers (.csv)</option>
+              <option value="SOCIAL">Social Connections (.csv)</option>
+              <option value="VEHICLE">Vehicles (.csv)</option>
+            </select>
+          </div>
+          <div>
+            <label>Select File</label><br>
+            <input type="file" id="upFile">
+          </div>
+          <button class="btn" id="btnUpload" style="align-self:flex-start">Upload and Ingest</button>
+        </div>
+        <div id="uploadResult"></div>
+      </div>
+
+      <div class="card mt16" id="caseDataStatus" style="display:none">
+        <h3>Case Data Source Coverage</h3>
+        <div class="checklist" id="caseChecklist"></div>
+      </div>
+    </section>
+
+    <!-- ============ ALERTS ============ -->
+    <section class="view" id="v-alerts">
+      <div class="alerts-header">
+        <div>
+          <h2>System Alerts & Anomaly Detections</h2>
+          <div class="lede">Evidence-based pattern anomalies detected across communications, banking, vehicles, and identity records. These are investigative leads for review, not proof of wrongdoing.</div>
+        </div>
+        <div class="alert-status-tabs">
+          <button class="filter-pill on" data-status="ALL">All Alerts</button>
+          <button class="filter-pill" data-status="Open">Open</button>
+          <button class="filter-pill" data-status="Investigating">Investigating</button>
+          <button class="filter-pill" data-status="Resolved">Resolved</button>
+          <button class="filter-pill" data-status="Dismissed">Dismissed</button>
+        </div>
+      </div>
+      <div id="alertsList"></div>
+    </section>
+
+    <!-- ============ DATA QUALITY ============ -->
+    <section class="view" id="v-dataquality">
+      <div class="dq-header">
+        <div>
+          <h2>Data Quality & Integrity Audit</h2>
+          <div class="lede">Automated diagnostic scanner identifying missing fields, duplicate records, malformed phone/case formats, and unresolved entities across all ingested datasets.</div>
+        </div>
+        <button class="btn small" id="btnRefreshDQ">Re-Scan Integrity</button>
+      </div>
+
+      <div id="dqContent">
+        <div class="card empty">Running data quality diagnostic scan...</div>
+      </div>
+    </section>
+
+    <!-- ============ DATA SOURCES ============ -->
+    <section class="view" id="v-datasources">
+      <h2>Ingested Data Sources</h2>
+      <div class="lede">Current active source files and database records loaded into the NEXUS knowledge graph.</div>
+      <div class="card">
+        <table id="dataSourcesTbl"></table>
+      </div>
+    </section>
+
+    <!-- ============ ADVANCED ANALYTICS ============ -->
+    <section class="view" id="v-advanced">
+      <h2>Advanced Network Analytics</h2>
+      <div class="lede">Global graph theory metrics, community detection, link prediction, and network disruption analysis. Kept separate from the daily case workflow.</div>
+      
+      <div class="tabs">
+        <button class="on" data-tab="influence">Global Influence</button>
+        <button data-tab="disruption">Disruption Simulator</button>
+        <button data-tab="crosscase">Cross-Case Map</button>
+        <button data-tab="linkpred">Link Prediction</button>
+        <button data-tab="audit">Audit Ledger</button>
+      </div>
+
+      <div class="adv-pane on" id="adv-influence">
+        <div class="grid g3 mb14" id="advKpis"></div>
+        <div class="card">
+          <h3>Top Influencers Across Entire Network</h3>
+          <div class="dim mb14">Calculated using PageRank, Degree, Betweenness, Closeness, and Eigenvector Centrality on the person projection graph.</div>
+          <table id="influenceTbl"></table>
+        </div>
+      </div>
+
+      <div class="adv-pane" id="adv-disruption" style="display:none">
+        <div class="card" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+          <label style="font-size:12px;color:var(--dim)">Select Entity to Remove:</label>
+          <select id="disruptTarget" style="min-width:240px"></select>
+          <button class="btn small" id="btnSimulate">Simulate Network Removal</button>
+        </div>
+        <div id="disruptResult"></div>
+      </div>
+
+      <div class="adv-pane" id="adv-crosscase" style="display:none">
+        <div class="card">
+          <h3>Cross-Case Network Linkages</h3>
+          <div class="dim mb14">Cases connected through shared persons, phones, vehicles, or bank accounts.</div>
+          <div id="crossCaseList"></div>
+        </div>
+      </div>
+
+      <div class="adv-pane" id="adv-linkpred" style="display:none">
+        <div class="card">
+          <h3>Potential Associations (Link Prediction)</h3>
+          <div class="dim mb14">Pairs of non-adjacent individuals exhibiting high overlap in shared contacts, financial conduits, or case environments.</div>
+          <table id="linkPredTbl"></table>
+        </div>
+      </div>
+
+      <div class="adv-pane" id="adv-audit" style="display:none">
+        <div class="card" style="display:flex;gap:12px;align-items:center">
+          <button class="btn small" id="btnVerifyChain">Verify Hash Chain</button>
+          <span id="verifyStatus" class="mono dim" style="font-size:11px">Verification pending</span>
+        </div>
+        <div id="chainBanner"></div>
+        <div class="card mt16">
+          <h3>Cryptographic SHA-256 Chain of Custody</h3>
+          <table id="ledgerTbl"></table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- ============ MODAL: REPORT ============ -->
+<div id="reportModal" class="modal" style="display:none">
+  <div class="modal-content report-modal">
+    <div class="modal-header">
+      <h3>Investigative Intelligence Report</h3>
+      <div class="modal-actions">
+        <button class="btn small" id="btnPrintReport">Print / Export PDF</button>
+        <button class="btn small ghost" id="btnCloseReport">Close</button>
+      </div>
+    </div>
+    <div id="reportBody" class="modal-body"></div>
+  </div>
+</div>
+
+<script src="vendor/cytoscape.min.js"></script>
+<script src="vendor/layout-base.js"></script>
+<script src="vendor/cose-base.js"></script>
+<script src="vendor/fcose.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

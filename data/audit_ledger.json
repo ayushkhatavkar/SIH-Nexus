@@ -1,0 +1,368 @@
+[
+  {
+    "index": 0,
+    "ts": "2026-09-07 00:12:23",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "39a350d6680887495414c55f191df026f9c3249b65cb2a8f78f318f7e692a17e"
+  },
+  {
+    "index": 1,
+    "ts": "2026-09-07 00:34:51",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "39a350d6680887495414c55f191df026f9c3249b65cb2a8f78f318f7e692a17e",
+    "hash": "6e161a8fc1b0a7c3316a57f3717d7ad44acdd3a7825f5903ca6e2f761e3d563f"
+  },
+  {
+    "index": 2,
+    "ts": "2026-09-07 00:34:51",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0170-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 33
+    },
+    "prev": "6e161a8fc1b0a7c3316a57f3717d7ad44acdd3a7825f5903ca6e2f761e3d563f",
+    "hash": "a006e4ace9c507407945bbbcc9691dcfffda910a4637c87060e40a4921eb0804"
+  },
+  {
+    "index": 3,
+    "ts": "2026-09-07 00:35:02",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "a006e4ace9c507407945bbbcc9691dcfffda910a4637c87060e40a4921eb0804",
+    "hash": "346cb5fb276875db08694306907e06f68bc4256f7c233bb61784ea1ca13eab30"
+  },
+  {
+    "index": 4,
+    "ts": "2026-09-07 00:35:29",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "346cb5fb276875db08694306907e06f68bc4256f7c233bb61784ea1ca13eab30",
+    "hash": "2e8ad0f185d039a752a0e89901be41f065db38965bd0242cd54b44dcc0e7ae6e"
+  },
+  {
+    "index": 5,
+    "ts": "2026-09-07 00:35:29",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0170-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 33
+    },
+    "prev": "2e8ad0f185d039a752a0e89901be41f065db38965bd0242cd54b44dcc0e7ae6e",
+    "hash": "aee394947ea8e0aa15fe1ec6c57fe7c3380a6185f6eff98432ddfc3cd2b5d047"
+  },
+  {
+    "index": 6,
+    "ts": "2026-09-07 00:35:53",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "aee394947ea8e0aa15fe1ec6c57fe7c3380a6185f6eff98432ddfc3cd2b5d047",
+    "hash": "fecfcd21256998d1713cd10a2a1a469eaa9c892edd930d7693fb528c1e433acd"
+  },
+  {
+    "index": 7,
+    "ts": "2026-09-07 00:36:01",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "fecfcd21256998d1713cd10a2a1a469eaa9c892edd930d7693fb528c1e433acd",
+    "hash": "f8ffc046b47f7edcbeea7cc67e1236b2d2aa1e8747a90b381486812cf4dea124"
+  },
+  {
+    "index": 8,
+    "ts": "2026-09-07 00:44:08",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "f8ffc046b47f7edcbeea7cc67e1236b2d2aa1e8747a90b381486812cf4dea124",
+    "hash": "7ba20a0e5f65ce79b794b014bcc4114baf2f248404bf4085feed4cc33e944fb1"
+  },
+  {
+    "index": 9,
+    "ts": "2026-09-07 00:44:08",
+    "actor": "investigator",
+    "action": "PERSON_INVESTIGATED",
+    "subject": "P052",
+    "payload": {
+      "name": "Ashok Sheikh"
+    },
+    "prev": "7ba20a0e5f65ce79b794b014bcc4114baf2f248404bf4085feed4cc33e944fb1",
+    "hash": "9b9d02af31b989e81a94203e4ae6c5bc429537d87b6645ebee52cf816aeb1bde"
+  },
+  {
+    "index": 10,
+    "ts": "2026-09-07 00:44:08",
+    "actor": "investigator",
+    "action": "PHONE_INVESTIGATED",
+    "subject": "9841506919",
+    "payload": {},
+    "prev": "9b9d02af31b989e81a94203e4ae6c5bc429537d87b6645ebee52cf816aeb1bde",
+    "hash": "d777f71c0ec4037cf06a57e73888dabf164c9d9e91e833eea7131ed1138c8df4"
+  },
+  {
+    "index": 11,
+    "ts": "2026-09-07 00:44:08",
+    "actor": "investigator",
+    "action": "REPORT_GENERATED",
+    "subject": "FIR-0170-2026",
+    "payload": {
+      "report_id": "REP-FIR-0170-2026-202609070044"
+    },
+    "prev": "d777f71c0ec4037cf06a57e73888dabf164c9d9e91e833eea7131ed1138c8df4",
+    "hash": "361bc0b19dce68ce09fd74eb8349952d349ec4db686ea82b927d2b8ee192baf6"
+  },
+  {
+    "index": 12,
+    "ts": "2026-09-07 00:46:17",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "361bc0b19dce68ce09fd74eb8349952d349ec4db686ea82b927d2b8ee192baf6",
+    "hash": "b03e8ce238dc3216896c7b109b7dc1de2427f0901b39d0d302548306d124e4d7"
+  },
+  {
+    "index": 13,
+    "ts": "2026-09-07 00:46:17",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0170-2026",
+    "payload": {
+      "hops": 1,
+      "entities": 16
+    },
+    "prev": "b03e8ce238dc3216896c7b109b7dc1de2427f0901b39d0d302548306d124e4d7",
+    "hash": "9c935810343dd825136abc02a0807bdbff56d7530fc106b0f3b4b8d25ba7e217"
+  },
+  {
+    "index": 14,
+    "ts": "2026-09-07 00:46:17",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0170-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 42
+    },
+    "prev": "9c935810343dd825136abc02a0807bdbff56d7530fc106b0f3b4b8d25ba7e217",
+    "hash": "6fe183d147740d73f4c65a3db4d3eaca78b49f7e527a234e9417c376fb44646c"
+  },
+  {
+    "index": 15,
+    "ts": "2026-09-07 00:46:17",
+    "actor": "investigator",
+    "action": "PERSON_INVESTIGATED",
+    "subject": "P052",
+    "payload": {
+      "name": "Ashok Sheikh"
+    },
+    "prev": "6fe183d147740d73f4c65a3db4d3eaca78b49f7e527a234e9417c376fb44646c",
+    "hash": "c5cade089efd3e69a2a74113c553da2abc5198be438880bd780ebe6191b0f6f3"
+  },
+  {
+    "index": 16,
+    "ts": "2026-09-07 00:46:17",
+    "actor": "investigator",
+    "action": "PHONE_INVESTIGATED",
+    "subject": "9841506919",
+    "payload": {},
+    "prev": "c5cade089efd3e69a2a74113c553da2abc5198be438880bd780ebe6191b0f6f3",
+    "hash": "ae66aa43d0fb3c905d1c8f0bfcff5841a5b68ea27a37b4bcb8db82cb5abca7f8"
+  },
+  {
+    "index": 17,
+    "ts": "2026-09-07 00:46:17",
+    "actor": "investigator",
+    "action": "REPORT_GENERATED",
+    "subject": "FIR-0170-2026",
+    "payload": {
+      "report_id": "REP-FIR-0170-2026-202609070046"
+    },
+    "prev": "ae66aa43d0fb3c905d1c8f0bfcff5841a5b68ea27a37b4bcb8db82cb5abca7f8",
+    "hash": "8dfbf864091713b18653a5c55719c144161ad0a6292171de67056b9708c386b7"
+  },
+  {
+    "index": 18,
+    "ts": "2026-09-07 00:46:18",
+    "actor": "admin",
+    "action": "DATA_INGESTED",
+    "subject": "test_fir.txt",
+    "payload": {
+      "doctype": "FIR",
+      "case_id": "0999/2026",
+      "records_added": 1
+    },
+    "prev": "8dfbf864091713b18653a5c55719c144161ad0a6292171de67056b9708c386b7",
+    "hash": "ec79d9813e0ba55af9c96cbd997472a0c7c944f13da87da52621281b12d723c9"
+  },
+  {
+    "index": 19,
+    "ts": "2026-09-07 00:46:18",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0999-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 29
+    },
+    "prev": "ec79d9813e0ba55af9c96cbd997472a0c7c944f13da87da52621281b12d723c9",
+    "hash": "c79387e6aa325953f81cfb3593d0891f232c157ae40c1316abf28a51c0c89b82"
+  },
+  {
+    "index": 20,
+    "ts": "2026-09-07 00:47:13",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "c79387e6aa325953f81cfb3593d0891f232c157ae40c1316abf28a51c0c89b82",
+    "hash": "891b910faa1b29029cff469335d4157becb87e31fffca830931e54bd009b3e39"
+  },
+  {
+    "index": 21,
+    "ts": "2026-09-07 00:47:13",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0170-2026",
+    "payload": {
+      "hops": 1,
+      "entities": 16
+    },
+    "prev": "891b910faa1b29029cff469335d4157becb87e31fffca830931e54bd009b3e39",
+    "hash": "fd26c8ec42fa69642c300fe997b825a8802d3702c981a11a115e2fe85228b9b7"
+  },
+  {
+    "index": 22,
+    "ts": "2026-09-07 00:47:13",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0170-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 42
+    },
+    "prev": "fd26c8ec42fa69642c300fe997b825a8802d3702c981a11a115e2fe85228b9b7",
+    "hash": "9db7535d065c940364a6cb3cc690a4d378013c89d8c47dffe630f6b52cc0637e"
+  },
+  {
+    "index": 23,
+    "ts": "2026-09-07 00:47:13",
+    "actor": "investigator",
+    "action": "PERSON_INVESTIGATED",
+    "subject": "P052",
+    "payload": {
+      "name": "Ashok Sheikh"
+    },
+    "prev": "9db7535d065c940364a6cb3cc690a4d378013c89d8c47dffe630f6b52cc0637e",
+    "hash": "ec3e32602b75fdd8d72a1ae8f690f311c88b15f3430305c1f214ab7537ca0f85"
+  },
+  {
+    "index": 24,
+    "ts": "2026-09-07 00:47:13",
+    "actor": "investigator",
+    "action": "PHONE_INVESTIGATED",
+    "subject": "9841506919",
+    "payload": {},
+    "prev": "ec3e32602b75fdd8d72a1ae8f690f311c88b15f3430305c1f214ab7537ca0f85",
+    "hash": "50c86150bc24d2a342b18a1ab1eac2e678995f2f76ef256d8ef9c34cf2229290"
+  },
+  {
+    "index": 25,
+    "ts": "2026-09-07 00:47:13",
+    "actor": "investigator",
+    "action": "REPORT_GENERATED",
+    "subject": "FIR-0170-2026",
+    "payload": {
+      "report_id": "REP-FIR-0170-2026-202609070047"
+    },
+    "prev": "50c86150bc24d2a342b18a1ab1eac2e678995f2f76ef256d8ef9c34cf2229290",
+    "hash": "6ed5c9f513a2e14da5fb91f68ebacc741190f7af2528b883413a020130cb04b4"
+  },
+  {
+    "index": 26,
+    "ts": "2026-09-07 00:47:13",
+    "actor": "admin",
+    "action": "DATA_INGESTED",
+    "subject": "test_fir.txt",
+    "payload": {
+      "doctype": "FIR",
+      "case_id": "0999/2026",
+      "records_added": 1
+    },
+    "prev": "6ed5c9f513a2e14da5fb91f68ebacc741190f7af2528b883413a020130cb04b4",
+    "hash": "78be1316403149e5daee2e06b1c752bf0ed075f777aeca7c09acd684371f0a5e"
+  },
+  {
+    "index": 27,
+    "ts": "2026-09-07 00:47:13",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0999-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 29
+    },
+    "prev": "78be1316403149e5daee2e06b1c752bf0ed075f777aeca7c09acd684371f0a5e",
+    "hash": "62a2b72991c2c8cd271f2b64bebfd73da82d04c59758910c76531489448b3d4e"
+  },
+  {
+    "index": 28,
+    "ts": "2026-09-07 00:52:07",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "62a2b72991c2c8cd271f2b64bebfd73da82d04c59758910c76531489448b3d4e",
+    "hash": "256f5d6556100053ee72c4100649680d48cabb5c711fdb08f448a023c8e58748"
+  },
+  {
+    "index": 29,
+    "ts": "2026-09-07 01:10:01",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "256f5d6556100053ee72c4100649680d48cabb5c711fdb08f448a023c8e58748",
+    "hash": "f02a60db81e645cfdc2cf406177af7ba31732762a70a4e240eb6346c61144db1"
+  }
+]

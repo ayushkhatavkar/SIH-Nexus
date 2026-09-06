@@ -1,0 +1,70 @@
+{
+  "notice": "CONFIDENTIAL \u2014 SYNTHETIC DEMONSTRATION DATA. No real person or record is represented.",
+  "featured_cases": {
+    "case_a": "FIR-0170-2026",
+    "case_b": "FIR-0117-2026",
+    "case_c": "FIR-0139-2026",
+    "case_d": "FIR-0158-2026"
+  },
+  "scenarios": [
+    {
+      "type": "shared_person",
+      "entity": "P052",
+      "entity_name": "Ashok Sheikh",
+      "cases": [
+        "FIR-0170-2026",
+        "FIR-0117-2026"
+      ],
+      "description": "Ashok Sheikh (P052) is named as accused in both FIR-0170-2026 and FIR-0117-2026."
+    },
+    {
+      "type": "shared_phone",
+      "entity": "9841506919",
+      "entity_name": "Phone 9841506919 (Mahesh Momin)",
+      "cases": [
+        "FIR-0170-2026",
+        "FIR-0139-2026"
+      ],
+      "description": "Phone 9841506919, registered to Mahesh Momin, appears in CDR traffic tagged to both FIR-0170-2026 and FIR-0139-2026."
+    },
+    {
+      "type": "shared_vehicle",
+      "entity": "V001",
+      "entity_name": "MH07LM2283",
+      "cases": [
+        "FIR-0117-2026",
+        "FIR-0158-2026"
+      ],
+      "description": "Vehicle MH07LM2283 is linked to both FIR-0117-2026 and FIR-0158-2026."
+    },
+    {
+      "type": "financial_link",
+      "entity": "P078->P052",
+      "entity_name": "Ganesh Chauhan -> Ashok Sheikh",
+      "cases": [
+        "FIR-0170-2026",
+        "FIR-0117-2026"
+      ],
+      "description": "A bank transaction connects Ganesh Chauhan (FIR-0170-2026) to Ashok Sheikh (FIR-0117-2026)."
+    },
+    {
+      "type": "communication_chain",
+      "entity": "P010->P050",
+      "entity_name": "Arun Sheikh -> Mahesh Momin",
+      "cases": [
+        "FIR-0139-2026",
+        "FIR-0170-2026"
+      ],
+      "description": "Arun Sheikh (FIR-0139-2026) is in frequent phone contact with Mahesh Momin, an accused in FIR-0170-2026."
+    }
+  ],
+  "case_id": "FIR-0170-2026",
+  "important_entities": [
+    "P052",
+    "P050"
+  ],
+  "related_cases": [
+    "FIR-0117-2026",
+    "FIR-0139-2026"
+  ]
+}

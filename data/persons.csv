@@ -1,0 +1,81 @@
+person_id,name,aliases,age_range,occupation,phone_numbers,addresses,primary_account,case_ids
+P001,Vikram Momin,V. Momin,56-65,Electrician,9846847120,"Chembur, Mumbai",156335443002,FIR-0237-2026
+P002,Vikram Rao,V. Rao,46-55,Auto mechanic,9838017599,"Thane West, Mumbai",506739373402,FIR-0383-2026
+P003,Deepak Shetty,D. Shetty,46-55,Broker,9806427386,"Vashi, Mumbai",,FIR-0360-2026
+P004,Ravi Kulkarni,R. Kulkarni,36-45,Driver,9860219034,"Wadala, Mumbai",,FIR-0158-2026
+P005,Javed Patil,J. Patil,26-35,Driver,9857130787,"Andheri East, Mumbai",090432042368,FIR-0163-2026
+P006,Rakesh Gaikwad,R. Gaikwad,36-45,Broker,9852111328,"Mankhurd, Mumbai",643395353869,FIR-0430-2026
+P007,Rehana Rane,R. Rane,56-65,Auto mechanic,9883070557,"Dharavi, Mumbai",000836954127,FIR-0108-2026
+P008,Rehana Gaikwad,R. Gaikwad,56-65,Courier,9805829940,"Bandra East, Mumbai",,FIR-0237-2026
+P009,Ajay Iyer,A. Iyer,18-25,Real estate agent,9876097873,"Kurla West, Mumbai",028050939863,FIR-0373-2026
+P010,Arun Sheikh,A. Sheikh,46-55,Real estate agent,9823594177,"Vashi, Mumbai",659525545507,FIR-0139-2026
+P011,Nitin Rane,N. Rane,26-35,Electrician,9893037095,"Kurla West, Mumbai",188158283793,FIR-0276-2026
+P012,Kavita Bhosale,K. Bhosale,56-65,Contractor,9894837925,"Kurla West, Mumbai",608510235848,FIR-0181-2026
+P013,Mahesh Bhosale,M. Bhosale,18-25,Driver,9807767152,"Vashi, Mumbai",495735448189,FIR-0222-2026
+P014,Imran Bhosale,I. Bhosale,26-35,Scrap dealer,9850210617,"Dharavi, Mumbai",917149266623,FIR-0295-2026
+P015,Ashok Yadav,A. Yadav,46-55,Real estate agent,9800839065,"Chembur, Mumbai",455697114719,FIR-0345-2026
+P016,Vijay Kadam,V. Kadam,36-45,Trader,9872785178,"Vashi, Mumbai",091866597803,FIR-0305-2026
+P017,Suresh Shaikh,S. Shaikh,56-65,Fisherman,9855458693,"Mankhurd, Mumbai",448445124247,FIR-0383-2026
+P018,Rajesh Shaikh,R. Shaikh,36-45,Contractor,9873578662,"Chembur, Mumbai",598943501571,FIR-0237-2026
+P019,Vikram Jadhav,V. Jadhav,46-55,Scrap dealer,9867408122,"Mankhurd, Mumbai",633413233107,FIR-0237-2026
+P020,Manoj Kadam,M. Kadam,18-25,Fisherman,9806192518,"Andheri East, Mumbai",860128651081,FIR-0305-2026
+P021,Rakesh Mehta,R. Mehta,36-45,Contractor,9830337290,"Kalyan, Mumbai",639629979370,FIR-0117-2026
+P022,Aisha Jadhav,A. Jadhav,46-55,Broker,9872422231,"Vashi, Mumbai",779813327455,FIR-0368-2026
+P023,Santosh Yadav,S. Yadav,18-25,Broker,9820065142,"Bandra East, Mumbai",836915159637,FIR-0393-2026
+P024,Dinesh Ansari,D. Ansari,46-55,Unemployed,9879591375,"Worli, Mumbai",287935222511,FIR-0144-2026
+P025,Vinod Bhatt,V. Bhatt,26-35,Mobile repair technician,9856217697,"Sion, Mumbai",371047947936,FIR-0430-2026
+P026,Mahesh Shaikh,M. Shaikh,36-45,Fisherman,9836174724,"Nagpada, Mumbai",819466472152,FIR-0222-2026
+P027,Neha Jadhav,N. Jadhav,56-65,Fisherman,9846956583,"Worli, Mumbai",086738535633,FIR-0478-2026
+P028,Divya Patil,D. Patil,36-45,Fisherman,9856890581,"Nagpada, Mumbai",770725692401,FIR-0365-2026
+P029,Sunil Sheikh,S. Sheikh,18-25,Fisherman,9882494692,"Byculla, Mumbai",464591521945,FIR-0139-2026
+P030,Ajay More,A. More,56-65,Real estate agent,9867658464,"Kurla West, Mumbai",244577456643,FIR-0345-2026
+P031,Naresh Qureshi,N. Qureshi,18-25,Fisherman,9891940269,"Dharavi, Mumbai",499657459855,FIR-0237-2026
+P032,Ajay Yadav,A. Yadav,36-45,Trader,9899226532,"Chembur, Mumbai",122555490943,FIR-0345-2026
+P033,Ramesh Khan,R. Khan,36-45,Driver,9840190744,"Andheri East, Mumbai",936822674856,FIR-0276-2026
+P034,Kiran Verma,K. Verma,56-65,Courier,9805020981,"Byculla, Mumbai",206423949928,FIR-0345-2026
+P035,Fatima Waghmare,F. Waghmare,18-25,Contractor,9855631711,"Govandi, Mumbai",770874508478,FIR-0430-2026
+P036,Manoj Kulkarni,M. Kulkarni,56-65,Fisherman,9812839562,"Bandra East, Mumbai",449171728882,FIR-0322-2026
+P037,Vijay Ansari,V. Ansari,56-65,Mobile repair technician,9892748695,"Chembur, Mumbai",424161532160,FIR-0322-2026
+P038,Anil Verma,A. Verma,56-65,Driver,9801074764,"Dharavi, Mumbai",127690736201,FIR-0334-2026
+P039,Amit Mehta,A. Mehta,26-35,Mobile repair technician,9819342369,"Chembur, Mumbai",515598626866,FIR-0158-2026
+P040,Ashok Joshi,A. Joshi,46-55,Trader,9887061175,"Kalyan, Mumbai",545239182167,FIR-0373-2026
+P041,Rakesh Sayyed,R. Sayyed,36-45,Real estate agent,9856596682,"Mankhurd, Mumbai",866143934306,FIR-0284-2026
+P042,Divya Momin,D. Momin,46-55,Real estate agent,9851195185,"Nagpada, Mumbai",984230812487,FIR-0284-2026
+P043,Salim Naik,S. Naik,18-25,Real estate agent,9881548837,"Andheri East, Mumbai",427933484292,FIR-0365-2026
+P044,Anjali Deshmukh,A. Deshmukh,56-65,Real estate agent,9875652793,"Kurla West, Mumbai",,FIR-0222-2026
+P045,Sneha Mehta,S. Mehta,46-55,Courier,9869624012,"Chembur, Mumbai",127319074627,FIR-0368-2026
+P046,Javed Bhatt,J. Bhatt,36-45,Broker,9872258685,"Mankhurd, Mumbai",997275026957,FIR-0222-2026
+P047,Kiran Mehta,K. Mehta,46-55,Auto mechanic,9823911726,"Shivaji Nagar, Mumbai",381623041254,FIR-0158-2026
+P048,Imran More,I. More,26-35,Contractor,9844837585,"Bandra East, Mumbai",533006088010,FIR-0393-2026
+P049,Kiran Momin,K. Momin,36-45,Unemployed,9830296061,"Worli, Mumbai",,FIR-0181-2026
+P050,Mahesh Momin,M. Momin,18-25,Fisherman,9841506919,"Wadala, Mumbai",416983251054,FIR-0170-2026|FIR-0295-2026
+P051,Ravi Rao,R. Rao,56-65,Driver,9828078492,"Shivaji Nagar, Mumbai",,FIR-0305-2026
+P052,Ashok Sheikh,A. Sheikh,46-55,Fisherman,9857952636,"Andheri East, Mumbai",563827924712,FIR-0117-2026|FIR-0170-2026|FIR-0295-2026
+P053,Meena Joshi,M. Joshi,26-35,Mobile repair technician,9857455174,"Bandra East, Mumbai",108213336805,FIR-0383-2026
+P054,Yogesh Jadhav,Y. Jadhav,18-25,Mobile repair technician,9856216810,"Mankhurd, Mumbai",820095500160,FIR-0163-2026
+P055,Neha Kadam,N. Kadam,26-35,Mobile repair technician,9821425195,"Bandra East, Mumbai",311437229124,FIR-0181-2026
+P056,Arun Rane,A. Rane,46-55,Driver,9809353657,"Andheri East, Mumbai",716982312231,FIR-0170-2026|FIR-0295-2026
+P057,Ganesh Pawar,G. Pawar,36-45,Shopkeeper,9829571000,"Shivaji Nagar, Mumbai",249578790540,FIR-0305-2026
+P058,Rajesh Patil,R. Patil,46-55,Real estate agent,9849386017,"Byculla, Mumbai",303069782041,FIR-0383-2026
+P059,Anil Sayyed,A. Sayyed,36-45,Unemployed,9890047244,"Sion, Mumbai",804552973739,FIR-0144-2026
+P060,Sunil Rao,S. Rao,46-55,Courier,9832446332,"Pune Camp, Pune",907088677296,FIR-0117-2026
+P061,Naresh Kulkarni,N. Kulkarni,36-45,Mobile repair technician,9844888703,"Vashi, Mumbai",247798572911,FIR-0284-2026
+P062,Prakash Shaikh,P. Shaikh,56-65,Electrician,9861493980,"Kalyan, Mumbai",,FIR-0383-2026
+P063,Rehana Momin,R. Momin,18-25,Unemployed,9843913342,"Nagpada, Mumbai",395523511220,FIR-0478-2026
+P064,Vinod Bhosale,V. Bhosale,46-55,Unemployed,9871504968,"Byculla, Mumbai",292906703982,FIR-0163-2026
+P065,Zoya Pawar,Z. Pawar,18-25,Mobile repair technician,9864322089,"Chembur, Mumbai",805937739664,FIR-0478-2026
+P066,Sanjay Kadam,S. Kadam,56-65,Shopkeeper,9866012999,"Mankhurd, Mumbai",053333855099,FIR-0144-2026
+P067,Ajay Kadam,A. Kadam,36-45,Trader,9817771656,"Andheri East, Mumbai",038696626916,FIR-0365-2026
+P068,Suresh Verma,S. Verma,56-65,Courier,9869125821,"Byculla, Mumbai",490692087324,FIR-0360-2026
+P069,Salim Verma,S. Verma,46-55,Driver,9855803876,"Kalyan, Mumbai",,FIR-0430-2026
+P070,Rohit Rane,R. Rane,56-65,Driver,9857823945,"Andheri East, Mumbai",162994705435,FIR-0334-2026
+P071,Vinod Waghmare,V. Waghmare,18-25,Scrap dealer,9846134028,"Govandi, Mumbai",,FIR-0430-2026
+P072,Suresh Kulkarni,S. Kulkarni,36-45,Trader,9860353574,"Pune Camp, Pune",413064207957,FIR-0284-2026
+P073,Yogesh Bhatt,Y. Bhatt,26-35,Electrician,9802540435,"Vashi, Mumbai",865490895882,FIR-0222-2026
+P074,Kavita Pawar,K. Pawar,56-65,Real estate agent,9866934567,"Vashi, Mumbai",,FIR-0393-2026
+P075,Anjali Momin,A. Momin,18-25,Electrician,9813263569,"Sion, Mumbai",737886341008,FIR-0163-2026
+P076,Ashok Kadam,A. Kadam,26-35,Mobile repair technician,9810276763,"Wadala, Mumbai",496486264151,FIR-0305-2026
+P077,Rakesh Chavan,R. Chavan,26-35,Scrap dealer,9875180561,"Thane West, Mumbai",659684504779,FIR-0139-2026
+P078,Ganesh Chauhan,G. Chauhan,36-45,Fisherman,9837839412,"Vashi, Mumbai",935585932472,FIR-0170-2026
+P079,Sanjay Jadhav,S. Jadhav,26-35,Contractor,9811118958,"Andheri East, Mumbai",,FIR-0108-2026
+P080,Imran Naik,I. Naik,36-45,Auto mechanic,9814177812,"Bandra East, Mumbai",883443091432,FIR-0163-2026

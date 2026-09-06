@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+.vscode/
+.idea/
+
+*.log
+
+.DS_Store
+Thumbs.db
+
+.pytest_cache/
+.mypy_cache/
+
+.env
+.env.*
+
+node_modules/
+
+# Local generated/runtime data if not intended for Git
