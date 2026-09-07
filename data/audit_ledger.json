@@ -364,5 +364,607 @@
     },
     "prev": "256f5d6556100053ee72c4100649680d48cabb5c711fdb08f448a023c8e58748",
     "hash": "f02a60db81e645cfdc2cf406177af7ba31732762a70a4e240eb6346c61144db1"
+  },
+  {
+    "index": 30,
+    "ts": "2026-09-07 16:12:36",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "f02a60db81e645cfdc2cf406177af7ba31732762a70a4e240eb6346c61144db1",
+    "hash": "d0868adf0620cca3d88bbe4a367c6f9711a551d15898c15628d4bba99b14e334"
+  },
+  {
+    "index": 31,
+    "ts": "2026-09-07 16:13:31",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "d0868adf0620cca3d88bbe4a367c6f9711a551d15898c15628d4bba99b14e334",
+    "hash": "bdb789137b52e94c515efdd66d03dbe1d7bddc13cacefa357f87a9fb033e629d"
+  },
+  {
+    "index": 32,
+    "ts": "2026-09-07 16:13:46",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 1,
+      "entities": 8
+    },
+    "prev": "bdb789137b52e94c515efdd66d03dbe1d7bddc13cacefa357f87a9fb033e629d",
+    "hash": "70841856d58e0941958b1bda2a906186c65964d4eaf7639cc2b3a203faede1cc"
+  },
+  {
+    "index": 33,
+    "ts": "2026-09-07 16:13:48",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "70841856d58e0941958b1bda2a906186c65964d4eaf7639cc2b3a203faede1cc",
+    "hash": "b869f6d972b6e85e0470635ed4c0db90a35065a39a2a47e4f06155322a2af41f"
+  },
+  {
+    "index": 34,
+    "ts": "2026-09-07 16:13:49",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 4,
+      "entities": 157
+    },
+    "prev": "b869f6d972b6e85e0470635ed4c0db90a35065a39a2a47e4f06155322a2af41f",
+    "hash": "6dc11fa58d4fe2fcdbb811e4d55ec9de0ea0c29c6738a94b090cbda2f64c6729"
+  },
+  {
+    "index": 35,
+    "ts": "2026-09-07 16:14:10",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 4,
+      "entities": 157
+    },
+    "prev": "6dc11fa58d4fe2fcdbb811e4d55ec9de0ea0c29c6738a94b090cbda2f64c6729",
+    "hash": "a31ecad1efd63ee237cc8c70a3e5f2778fa1d152e53e8dc2fd636bf878c56146"
+  },
+  {
+    "index": 36,
+    "ts": "2026-09-07 16:14:14",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0334-2026",
+    "payload": {
+      "hops": 4,
+      "entities": 143
+    },
+    "prev": "a31ecad1efd63ee237cc8c70a3e5f2778fa1d152e53e8dc2fd636bf878c56146",
+    "hash": "71783f03d9906dfd4871a97883bcf83235702aaecbf4e64a91104b44a8747047"
+  },
+  {
+    "index": 37,
+    "ts": "2026-09-07 16:14:16",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0334-2026",
+    "payload": {
+      "hops": 1,
+      "entities": 9
+    },
+    "prev": "71783f03d9906dfd4871a97883bcf83235702aaecbf4e64a91104b44a8747047",
+    "hash": "e05a51df02e0430fd55f9da1b62a15c32a9a2b2cb5f5b1990086986b84b30bba"
+  },
+  {
+    "index": 38,
+    "ts": "2026-09-07 16:14:21",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0322-2026",
+    "payload": {
+      "hops": 1,
+      "entities": 9
+    },
+    "prev": "e05a51df02e0430fd55f9da1b62a15c32a9a2b2cb5f5b1990086986b84b30bba",
+    "hash": "52fe9afaaca8f481d6787c5af24d2ca83775457166d09d91b532e3b78bd38a01"
+  },
+  {
+    "index": 39,
+    "ts": "2026-09-07 16:15:10",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0322-2026",
+    "payload": {
+      "hops": 1,
+      "entities": 9
+    },
+    "prev": "52fe9afaaca8f481d6787c5af24d2ca83775457166d09d91b532e3b78bd38a01",
+    "hash": "f0cbb9c4489965f03c99047e6f5aaa23bf9f105305c03836137c21bbad555a7b"
+  },
+  {
+    "index": 40,
+    "ts": "2026-09-07 16:16:24",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0108-2026",
+    "payload": {
+      "hops": 1,
+      "entities": 8
+    },
+    "prev": "f0cbb9c4489965f03c99047e6f5aaa23bf9f105305c03836137c21bbad555a7b",
+    "hash": "c898d302580ff45635627c05821a0e8e6785e4872035c2877b583bc94760d8aa"
+  },
+  {
+    "index": 41,
+    "ts": "2026-09-07 16:27:42",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "c898d302580ff45635627c05821a0e8e6785e4872035c2877b583bc94760d8aa",
+    "hash": "558493df226cf652ead3b0490e2d2f3723c985c5b368ab056af6f016b4b918ef"
+  },
+  {
+    "index": 42,
+    "ts": "2026-09-07 16:27:55",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "558493df226cf652ead3b0490e2d2f3723c985c5b368ab056af6f016b4b918ef",
+    "hash": "1d86868a2420617aaf1f625a8aededfc9a8403a32a0ead1c56ff09db36effd6c"
+  },
+  {
+    "index": 43,
+    "ts": "2026-09-07 16:28:08",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0383-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 41
+    },
+    "prev": "1d86868a2420617aaf1f625a8aededfc9a8403a32a0ead1c56ff09db36effd6c",
+    "hash": "6f52f39f776aa3c066c69d8625199fa1b1146e54a86102096403366f21dd8f1e"
+  },
+  {
+    "index": 44,
+    "ts": "2026-09-07 16:29:59",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "6f52f39f776aa3c066c69d8625199fa1b1146e54a86102096403366f21dd8f1e",
+    "hash": "8f38cc1a31069b2ae3432500b8f57cd9f0c4972104679f56c2ced761f27df9e4"
+  },
+  {
+    "index": 45,
+    "ts": "2026-09-07 16:30:01",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 1,
+      "entities": 8
+    },
+    "prev": "8f38cc1a31069b2ae3432500b8f57cd9f0c4972104679f56c2ced761f27df9e4",
+    "hash": "0a8fc58b304fa746eb2e39ca52d17268479632a42f1858518396a3c73171c764"
+  },
+  {
+    "index": 46,
+    "ts": "2026-09-07 16:30:03",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "0a8fc58b304fa746eb2e39ca52d17268479632a42f1858518396a3c73171c764",
+    "hash": "9d92009f96bd7fa3a52ba48a23e5a5336a6c39e81720b34b88570bd3cadd8eda"
+  },
+  {
+    "index": 47,
+    "ts": "2026-09-07 16:30:03",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 3,
+      "entities": 51
+    },
+    "prev": "9d92009f96bd7fa3a52ba48a23e5a5336a6c39e81720b34b88570bd3cadd8eda",
+    "hash": "764387ffdb9d2ec8787421e68982474752cb1ddbc313eeaa757b7b5b2180965a"
+  },
+  {
+    "index": 48,
+    "ts": "2026-09-07 16:47:32",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "764387ffdb9d2ec8787421e68982474752cb1ddbc313eeaa757b7b5b2180965a",
+    "hash": "c8b93b676f7150c712195353d0bd157f3ec0c6166bbea46a70ef31d5ff21cbda"
+  },
+  {
+    "index": 49,
+    "ts": "2026-09-07 16:47:45",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "c8b93b676f7150c712195353d0bd157f3ec0c6166bbea46a70ef31d5ff21cbda",
+    "hash": "da280cfea2519388fb03262414b06a5d3fc169e274f16b7b43f7ef65bf108471"
+  },
+  {
+    "index": 50,
+    "ts": "2026-09-07 16:47:45",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0117-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 37
+    },
+    "prev": "da280cfea2519388fb03262414b06a5d3fc169e274f16b7b43f7ef65bf108471",
+    "hash": "3b0657396dd2e5d068d6d4af57733847e1e3e3b4b13e3dfc6aa226292a8e30d1"
+  },
+  {
+    "index": 51,
+    "ts": "2026-09-07 16:47:45",
+    "actor": "investigator",
+    "action": "PERSON_INVESTIGATED",
+    "subject": "P001",
+    "payload": {
+      "name": "Vikram Momin"
+    },
+    "prev": "3b0657396dd2e5d068d6d4af57733847e1e3e3b4b13e3dfc6aa226292a8e30d1",
+    "hash": "15e6b1bb4ef2fbda441e195d34a265dffa4f2a68c1eeafcdbbb0ab071081f0ca"
+  },
+  {
+    "index": 52,
+    "ts": "2026-09-07 16:47:45",
+    "actor": "investigator",
+    "action": "PHONE_INVESTIGATED",
+    "subject": "9841506919",
+    "payload": {},
+    "prev": "15e6b1bb4ef2fbda441e195d34a265dffa4f2a68c1eeafcdbbb0ab071081f0ca",
+    "hash": "e4221d9593a044ce8df88ce28af4845d12b4680fc9d8c1a988fc34fc7f1acf97"
+  },
+  {
+    "index": 53,
+    "ts": "2026-09-07 16:47:45",
+    "actor": "investigator",
+    "action": "VEHICLE_INVESTIGATED",
+    "subject": "V001",
+    "payload": {
+      "reg": "MH07LM2283"
+    },
+    "prev": "e4221d9593a044ce8df88ce28af4845d12b4680fc9d8c1a988fc34fc7f1acf97",
+    "hash": "cd493b72637825ba4a6e61ef72c8b1f869f4ad269f734f013d47f087bdbbc600"
+  },
+  {
+    "index": 54,
+    "ts": "2026-09-07 16:47:45",
+    "actor": "investigator",
+    "action": "ACCOUNT_INVESTIGATED",
+    "subject": "156335443002",
+    "payload": {},
+    "prev": "cd493b72637825ba4a6e61ef72c8b1f869f4ad269f734f013d47f087bdbbc600",
+    "hash": "67a571a01d610eb7b59da2840d6a6309cd7e7e9184c6938be232e760b4ab8a90"
+  },
+  {
+    "index": 55,
+    "ts": "2026-09-07 16:47:45",
+    "actor": "investigator",
+    "action": "PATH_FOUND",
+    "subject": "P052 -> P001",
+    "payload": {
+      "length": 4
+    },
+    "prev": "67a571a01d610eb7b59da2840d6a6309cd7e7e9184c6938be232e760b4ab8a90",
+    "hash": "f7f022aafa3c9de8f8ac6bc0317bed95939eff2005b3ae50a15ce3284f9327c5"
+  },
+  {
+    "index": 56,
+    "ts": "2026-09-07 16:48:19",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "f7f022aafa3c9de8f8ac6bc0317bed95939eff2005b3ae50a15ce3284f9327c5",
+    "hash": "b55f889c92950427e568f2077d48476f9f5fe5c035a9a42d7d39148aaa6118c6"
+  },
+  {
+    "index": 57,
+    "ts": "2026-09-07 16:49:09",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "b55f889c92950427e568f2077d48476f9f5fe5c035a9a42d7d39148aaa6118c6",
+    "hash": "ae1a249163db618aac341d1da68ed9758cb96c71bb329b6122ba187d990c600c"
+  },
+  {
+    "index": 58,
+    "ts": "2026-09-07 16:49:14",
+    "actor": "investigator",
+    "action": "PERSON_INVESTIGATED",
+    "subject": "P001",
+    "payload": {
+      "name": "Vikram Momin"
+    },
+    "prev": "ae1a249163db618aac341d1da68ed9758cb96c71bb329b6122ba187d990c600c",
+    "hash": "51fbb7e9447263b4ff0077095a7d4a334f28c9807058e1473bf74d9d6e38a3e6"
+  },
+  {
+    "index": 59,
+    "ts": "2026-09-07 16:49:16",
+    "actor": "investigator",
+    "action": "PHONE_INVESTIGATED",
+    "subject": "9841506919",
+    "payload": {},
+    "prev": "51fbb7e9447263b4ff0077095a7d4a334f28c9807058e1473bf74d9d6e38a3e6",
+    "hash": "b6ff93d0717c23d6092446540111419947a7961af25bdba8c411e2c20f113f60"
+  },
+  {
+    "index": 60,
+    "ts": "2026-09-07 16:49:18",
+    "actor": "investigator",
+    "action": "VEHICLE_INVESTIGATED",
+    "subject": "V001",
+    "payload": {
+      "reg": "MH07LM2283"
+    },
+    "prev": "b6ff93d0717c23d6092446540111419947a7961af25bdba8c411e2c20f113f60",
+    "hash": "0bfdafee98254a5ba2822e5140a9fb14d6745088bb3b8e3e7d5d434a5baae1b2"
+  },
+  {
+    "index": 61,
+    "ts": "2026-09-07 16:49:20",
+    "actor": "investigator",
+    "action": "ACCOUNT_INVESTIGATED",
+    "subject": "156335443002",
+    "payload": {},
+    "prev": "0bfdafee98254a5ba2822e5140a9fb14d6745088bb3b8e3e7d5d434a5baae1b2",
+    "hash": "36d0789336b5d47eb2dfd594d6a7270cbec259085a1191f06623c56693f5e2c9"
+  },
+  {
+    "index": 62,
+    "ts": "2026-09-07 16:49:21",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "36d0789336b5d47eb2dfd594d6a7270cbec259085a1191f06623c56693f5e2c9",
+    "hash": "4ca1781c94ed64645f55988f859fe3155cef330191efe64374a041d31b062f03"
+  },
+  {
+    "index": 63,
+    "ts": "2026-09-07 16:49:22",
+    "actor": "investigator",
+    "action": "PATH_FOUND",
+    "subject": "P052 -> P001",
+    "payload": {
+      "length": 4
+    },
+    "prev": "4ca1781c94ed64645f55988f859fe3155cef330191efe64374a041d31b062f03",
+    "hash": "bd1466a6883a9fd54010c5969a4cb849732aacb81a9408e5bfdbd39ca7562c12"
+  },
+  {
+    "index": 64,
+    "ts": "2026-09-07 16:49:55",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "bd1466a6883a9fd54010c5969a4cb849732aacb81a9408e5bfdbd39ca7562c12",
+    "hash": "cadcb0087ffb7affb8e620e3d0be84b58bdf4c37179215ae90548abb42527734"
+  },
+  {
+    "index": 65,
+    "ts": "2026-09-07 16:49:59",
+    "actor": "investigator",
+    "action": "PERSON_INVESTIGATED",
+    "subject": "P001",
+    "payload": {
+      "name": "Vikram Momin"
+    },
+    "prev": "cadcb0087ffb7affb8e620e3d0be84b58bdf4c37179215ae90548abb42527734",
+    "hash": "1e7ee028802de8803b3a0f78bc9969ff6a2ff4316a4fe8b9731a7a7963ebcfd6"
+  },
+  {
+    "index": 66,
+    "ts": "2026-09-07 16:50:01",
+    "actor": "investigator",
+    "action": "PHONE_INVESTIGATED",
+    "subject": "9841506919",
+    "payload": {},
+    "prev": "1e7ee028802de8803b3a0f78bc9969ff6a2ff4316a4fe8b9731a7a7963ebcfd6",
+    "hash": "7067c0c63c5b6c46f884899fcd813b86a58715d4add1dc1f501116489ae06a26"
+  },
+  {
+    "index": 67,
+    "ts": "2026-09-07 16:50:03",
+    "actor": "investigator",
+    "action": "VEHICLE_INVESTIGATED",
+    "subject": "V001",
+    "payload": {
+      "reg": "MH07LM2283"
+    },
+    "prev": "7067c0c63c5b6c46f884899fcd813b86a58715d4add1dc1f501116489ae06a26",
+    "hash": "024c0f9d0599fe166370c6861156498f908b3da54c1f21bd599a4b8529034dba"
+  },
+  {
+    "index": 68,
+    "ts": "2026-09-07 16:50:05",
+    "actor": "investigator",
+    "action": "ACCOUNT_INVESTIGATED",
+    "subject": "156335443002",
+    "payload": {},
+    "prev": "024c0f9d0599fe166370c6861156498f908b3da54c1f21bd599a4b8529034dba",
+    "hash": "52321a1d407f69076bbef130fd23dc08aee00ec6ee44fc37863ec202f0c31c3d"
+  },
+  {
+    "index": 69,
+    "ts": "2026-09-07 16:50:07",
+    "actor": "investigator",
+    "action": "PATH_FOUND",
+    "subject": "P052 -> P001",
+    "payload": {
+      "length": 4
+    },
+    "prev": "52321a1d407f69076bbef130fd23dc08aee00ec6ee44fc37863ec202f0c31c3d",
+    "hash": "4c154e32f23a11f66dcb7f85a2c78d15063f767546bd1ff700336d4bf7dca71c"
+  },
+  {
+    "index": 70,
+    "ts": "2026-09-07 16:50:13",
+    "actor": "investigator",
+    "action": "PERSON_INVESTIGATED",
+    "subject": "P001",
+    "payload": {
+      "name": "Vikram Momin"
+    },
+    "prev": "4c154e32f23a11f66dcb7f85a2c78d15063f767546bd1ff700336d4bf7dca71c",
+    "hash": "3d696dd586257df8c5d71da5736b085e55dcb89a54922eac7b4e4f0210020bcc"
+  },
+  {
+    "index": 71,
+    "ts": "2026-09-07 16:51:13",
+    "actor": "system",
+    "action": "SYSTEM_START",
+    "subject": "NEXUS",
+    "payload": {
+      "cases": 25
+    },
+    "prev": "3d696dd586257df8c5d71da5736b085e55dcb89a54922eac7b4e4f0210020bcc",
+    "hash": "4006324f0517d8aeba1b6b9490ad0569111c914d513160a50f859d8d7bf845c0"
+  },
+  {
+    "index": 72,
+    "ts": "2026-09-07 16:51:25",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "4006324f0517d8aeba1b6b9490ad0569111c914d513160a50f859d8d7bf845c0",
+    "hash": "769e1f8da3a9d2f2948ca9c55c4f3c77725688f2ae2d3519e4abbea27f9c6cdf"
+  },
+  {
+    "index": 73,
+    "ts": "2026-09-07 16:51:51",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0108-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 19
+    },
+    "prev": "769e1f8da3a9d2f2948ca9c55c4f3c77725688f2ae2d3519e4abbea27f9c6cdf",
+    "hash": "5675ea64c086e46887c0080d5824d262610d1eaaf68e88515f804cd640750bec"
+  },
+  {
+    "index": 74,
+    "ts": "2026-09-07 16:52:57",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "5675ea64c086e46887c0080d5824d262610d1eaaf68e88515f804cd640750bec",
+    "hash": "68fff185cffc6bd2054f22e39a30621052dd90e633db9aab4025e247e59456af"
+  },
+  {
+    "index": 75,
+    "ts": "2026-09-07 16:54:37",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "68fff185cffc6bd2054f22e39a30621052dd90e633db9aab4025e247e59456af",
+    "hash": "dd70b000de494ec714b5747be1ecc819e588948d4c7c668e8e419e5bf112669a"
+  },
+  {
+    "index": 76,
+    "ts": "2026-09-07 16:59:51",
+    "actor": "investigator",
+    "action": "PERSON_INVESTIGATED",
+    "subject": "P069",
+    "payload": {
+      "name": "Salim Verma"
+    },
+    "prev": "dd70b000de494ec714b5747be1ecc819e588948d4c7c668e8e419e5bf112669a",
+    "hash": "f3f81540273e19845f109fa8afe0e9c8a455eb5b8ec257e3dc7d387e038114a6"
+  },
+  {
+    "index": 77,
+    "ts": "2026-09-07 17:00:19",
+    "actor": "investigator",
+    "action": "CASE_INVESTIGATED",
+    "subject": "FIR-0276-2026",
+    "payload": {
+      "hops": 2,
+      "entities": 15
+    },
+    "prev": "f3f81540273e19845f109fa8afe0e9c8a455eb5b8ec257e3dc7d387e038114a6",
+    "hash": "4611e98a140badd019fe7788563049474786d8cc6df105e19cc595610e518372"
+  },
+  {
+    "index": 78,
+    "ts": "2026-09-07 17:01:08",
+    "actor": "admin",
+    "action": "DATA_INGESTED",
+    "subject": "FIR-0170-2026.txt",
+    "payload": {
+      "doctype": "FIR",
+      "case_id": "",
+      "records_added": 0
+    },
+    "prev": "4611e98a140badd019fe7788563049474786d8cc6df105e19cc595610e518372",
+    "hash": "3133c3a7b46d2bcb2f32a4694a61e61796eebfb055421e5d94362e2edc0bc64e"
   }
 ]

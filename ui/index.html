@@ -10,27 +10,82 @@
 <div class="app">
   <aside class="side">
     <div class="brand">
+      <div class="brand-top">
+        <svg class="brand-mark" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1e3a5f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <circle cx="12" cy="11" r="3"/>
+          <line x1="12" y1="8" x2="12" y2="6"/>
+          <line x1="12" y1="16" x2="12" y2="14"/>
+          <line x1="9" y1="11" x2="7" y2="11"/>
+          <line x1="17" y1="11" x2="15" y2="11"/>
+        </svg>
+        <span class="brand-name">NEXUS</span>
+      </div>
       <div class="brand-badge">LAW ENFORCEMENT INTELLIGENCE</div>
-      <h1>NEXUS</h1>
       <div class="sub">CRIMINAL NETWORK ANALYSIS</div>
     </div>
-    <div class="synthetic-badge">CONFIDENTIAL — SYNTHETIC DEMO DATA</div>
+    <div class="synthetic-badge">CONFIDENTIAL — LAW ENFORCEMENT SENSITIVE</div>
     <nav class="nav" id="nav">
-      <button data-v="home" class="on"><span class="ico">⌂</span>Home / Search</button>
-      <button data-v="investigate"><span class="ico">◈</span>Case Investigation</button>
-      <button data-v="person" id="navPersonBtn" style="display:none"><span class="ico">👤</span>Person Dossier</button>
-      <button data-v="phone" id="navPhoneBtn" style="display:none"><span class="ico">📞</span>Phone Dossier</button>
-      <button data-v="vehicle" id="navVehicleBtn" style="display:none"><span class="ico">🚗</span>Vehicle Dossier</button>
-      <button data-v="account" id="navAccountBtn" style="display:none"><span class="ico">🏦</span>Account Dossier</button>
-      <button data-v="cases"><span class="ico">▤</span>All Cases</button>
-      <button data-v="pathfinder"><span class="ico">🧭</span>Path Finder</button>
-      <button data-v="compare"><span class="ico">⇄</span>Compare Cases</button>
-      <button data-v="timeline"><span class="ico">⏱</span>Case Timeline</button>
-      <button data-v="upload"><span class="ico">⇪</span>Add Data</button>
-      <button data-v="alerts"><span class="ico">⚑</span>Alerts<span class="badge" id="alertBadge">0</span></button>
-      <button data-v="dataquality"><span class="ico">🛡</span>Data Quality</button>
-      <button data-v="datasources"><span class="ico">🗄</span>Data Sources</button>
-      <button data-v="advanced"><span class="ico">⬡</span>Advanced Analytics</button>
+      <button data-v="home" class="on">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        Home / Search
+      </button>
+      <button data-v="investigate">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="6" x2="12" y2="2"/><line x1="12" y1="22" x2="12" y2="18"/><circle cx="12" cy="12" r="4"/></svg>
+        Case Investigation
+      </button>
+      <button data-v="person" id="navPersonBtn" style="display:none">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        Person Dossier
+      </button>
+      <button data-v="phone" id="navPhoneBtn" style="display:none">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Phone Dossier
+      </button>
+      <button data-v="vehicle" id="navVehicleBtn" style="display:none">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+        Vehicle Dossier
+      </button>
+      <button data-v="account" id="navAccountBtn" style="display:none">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+        Account Dossier
+      </button>
+      <button data-v="cases">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        All Cases
+      </button>
+      <button data-v="pathfinder">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+        Path Finder
+      </button>
+      <button data-v="compare">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+        Compare Cases
+      </button>
+      <button data-v="timeline">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Case Timeline
+      </button>
+      <button data-v="upload">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        Add Data
+      </button>
+      <button data-v="alerts">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Alerts<span class="badge" id="alertBadge">0</span>
+      </button>
+      <button data-v="dataquality">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Data Quality
+      </button>
+      <button data-v="datasources">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+        Data Sources
+      </button>
+      <button data-v="advanced">
+        <svg class="nav-ico" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        Advanced Analytics
+      </button>
     </nav>
     <div class="sidefoot">
       <b>NEXUS System 2.0</b><br>
@@ -43,12 +98,12 @@
 
     <!-- ============ HOME ============ -->
     <section class="view on" id="v-home">
-      <div class="hero-search">
-        <div class="hero-tagline">CRIMINAL NETWORK ANALYSIS & INVESTIGATION</div>
-        <h1>Cross-Case Intelligence Platform</h1>
-        <div class="tag">Surface hidden connections, cross-case bridges, and actionable investigative leads across multiple data sources.</div>
+      <div class="console-header">
+        <div class="console-tagline">CRIMINAL NETWORK INTELLIGENCE CONSOLE</div>
+        <h1>Cross-Case Investigation Platform</h1>
+        <div class="console-sub">Surface hidden connections, cross-case bridges, and actionable investigative leads across verified law enforcement datasets.</div>
         
-        <div class="modes">
+        <div class="modes mt16">
           <button class="mode-btn on" data-mode="all">All Entities</button>
           <button class="mode-btn" data-mode="case">Case / FIR</button>
           <button class="mode-btn" data-mode="person">Person</button>
@@ -57,7 +112,10 @@
           <button class="mode-btn" data-mode="account">Bank Account</button>
         </div>
         
-        <div class="searchbox mt16">
+        <div class="searchbox mt14">
+          <div class="searchbox-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
           <input id="homeSearch" type="text" placeholder="Search by Case ID, Person Name/ID, Phone, Vehicle, or Account..." autocomplete="off">
           <button class="btn" id="btnHomeSearch">Investigate</button>
         </div>
